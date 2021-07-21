@@ -1,0 +1,20 @@
+php artisan serv --host=192.168.43.22 --port=8000 
+---------------------------------------------------------------------
+php artisan tin
+ App\Models\User::factory()->make()
+App\Models\User::factory()->create(['password'=>bcrypt('password')])
+____________________________________________________________________
+php artisan migrate
+----------------------------------------------------------
+-------------------------------------------------------------------------
+ADD project to github:
+1-Create a new repository on your enterprise
+2- $ git init -b main
+3-$ git init -b main
+4-$ git add .
+5-$ git commit -m "First commit"
+6-At the top of your GitHub AE repository's Quick Setup page, click  to copy the remote repository URL.
+7-git remote add origin  <REMOTE_URL>
+8- git remote -v
+9-git push origin main
+--------------------------------------------------------------------------
